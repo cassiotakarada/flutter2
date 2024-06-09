@@ -1,6 +1,6 @@
-# Projeto Flutter/Dart - Cadastro de Filmes
+# Projeto Flutter/Dart - Cadastro de Carros
 
-Este é o projeto do 2º bimestre da disciplina de Desenvolvimento Mobile da FATEC - Franca, desenvolvido por Cassio Silva Takarada e Higor Braga da Silva. O objetivo do projeto é criar um aplicativo em Flutter/Dart para o cadastro de filmes, utilizando SQLite para a manipulação de dados.
+Este é o projeto do 2º bimestre da disciplina de Desenvolvimento Mobile da FATEC - Franca, desenvolvido por Cassio Silva Takarada e Higor Braga da Silva. O objetivo do projeto é criar um aplicativo em Flutter/Dart para o cadastro de carros, utilizando SQLite para a manipulação de dados.
 
 ## Autores
 
@@ -14,13 +14,14 @@ Este é o projeto do 2º bimestre da disciplina de Desenvolvimento Mobile da FAT
 
 ## Descrição do Projeto
 
-O aplicativo desenvolvido permite o cadastro de filmes, incluindo informações como título, diretor, ano de lançamento, gênero, duração e sinopse. O projeto segue as especificações fornecidas pelo professor, garantindo uma aplicação funcional e intuitiva.
+O aplicativo desenvolvido permite o cadastro de carros, incluindo informações como modelo, marca, ano de fabricação, cor, quilometragem e observações. O projeto segue as especificações fornecidas pelo professor, garantindo uma aplicação funcional e intuitiva.
 
 ### Funcionalidades
 
+- **Tela de Carregamento**: Tela inicial exibida ao abrir o aplicativo, com um indicador de carregamento.
 - **Tela Dashboard**: Tela principal contendo uma imagem e um botão para navegar para a próxima tela.
-- **Tela de Lista de Filmes**: Exibe uma lista de filmes cadastrados, utilizando cards para mostrar as informações. Contém um botão para adicionar um novo filme.
-- **Tela de Cadastro de Filmes**: Permite o cadastro de novos filmes, com inputs para os seguintes atributos: título, diretor, ano de lançamento, gênero, duração e sinopse.
+- **Tela de Lista de Carros**: Exibe uma lista de carros cadastrados, utilizando cards para mostrar as informações. Contém um botão para adicionar um novo carro.
+- **Tela de Cadastro de Carros**: Permite o cadastro de novos carros, com inputs para os seguintes atributos: modelo, marca, ano de fabricação, cor, quilometragem e observações.
 
 ## Tecnologias Utilizadas
 
@@ -30,9 +31,10 @@ O aplicativo desenvolvido permite o cadastro de filmes, incluindo informações 
 
 ## Estrutura do Projeto
 
-1. **Dashboard**: Tela inicial com imagem e botão de navegação.
-2. **Lista de Filmes**: Tela que exibe os filmes cadastrados.
-3. **Cadastro de Filmes**: Tela para cadastro de novos filmes.
+1. **Tela de Carregamento**: Tela exibida ao iniciar o aplicativo, com um indicador de progresso.
+2. **Dashboard**: Tela inicial com imagem e botão de navegação.
+3. **Lista de Carros**: Tela que exibe os carros cadastrados.
+4. **Cadastro de Carros**: Tela para cadastro de novos carros.
 
 ## Instruções de Execução
 
